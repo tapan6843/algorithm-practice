@@ -1,0 +1,35 @@
+Write your own implementation of linked that contain integers. Use your list to implement a queue and a stack.
+
+For the purpose of this assignment, you only need to implement "insert" "delete" as follows:
+
+(If you are writing your code in Java:)
+
+  queue.insert(x) 
+
+  queue.delete(x)
+
+where "x" is an integer, and queue is an instance of a your queue implementing using your linked list.
+
+Insert does not return any value, and delete returns the first element of the list, and removes it. 
+
+You need to implement the following methods for stack:
+  stack.push(x)
+
+  stack.pop()
+
+with the usual semantics.
+
+Read integers from an ASCII text file, one integer per line. Add the content of the file to the stack and to the queue data structure, and then read back all the values and print them.
+
+Your code must make no assumptions on the number of integers in the file. 
+
+Submit either:
+
+    one zip file containing the source code of your list, stack and queue, and possibly a readme that explains how to compile and run your code, or
+    individual source files and readme. 
+
+DO NOT submit entire Eclipse projects. I will compile and run your code from the terminal as follows (for the program implementing the stack): 
+
+Java: javac Stack.java; java Stack
+
+C/C++: make; ./stack  
