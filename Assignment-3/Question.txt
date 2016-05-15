@@ -1,0 +1,13 @@
+Download the combined Facebook dataset from: http://snap.stanford.edu/data/egonets-Facebook.html
+
+This dataset consists of a 88234 edges and 4039 vertices. Each vertex represents a Facebook user, and each edge -- a "friend" relationship.
+
+Write a program that loads the entire dataset and represents it in memory using an adjacency list. Your program takes in input two user IDs, and determines how far the two users are on the Facebook social graph. For instance, if user 33 can be reached from user 821 through three friends (e.g., 33,78,1242,839,821 is the shortest path between them), then the output of your program should be:
+
+$ java FriendsInCommon 33 821
+
+Users 33 and 821 are 3 friends apart.
+
+You cannot use any data structure provided by your programming/runtime environment, such as Hashmaps, lists, etc.
+
+Extra credit (up to 4 points) Write a program that outputs how many friends, on average, separate two users.
